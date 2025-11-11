@@ -1,0 +1,70 @@
+body {
+  background-color: #12492b;
+  color: #fff;
+  font-family: 'MedievalSharp', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  background-color: rgba(23, 230, 33, 0.6);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #bfff95;
+  position: relative;
+ text-align: center;
+ font-size: 100px;
+}
+
+h2 {
+    color: black;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 35px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+
+#imageIntro{
+    width: 100%;
+}
+
+.scene{
+    position: relative;
+    background: url("../images/pexels-liger-pham-232622-1108701.jpg") center/cover; 
+    width: 100%;
+    height:1000px;
+
+    margin: 0 auto;
+    /* image trouvé sur https://www.pexels.com/fr-fr/ */
+}
+
+.choices a {
+  display: inline-block;
+  margin: 10px 20px 10px 0;
+  padding: 12px 24px;
+  background-color: #40c58e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.choices a:hover {
+  background-color: #48ddc4;
+}
+
+a {
+  color: #70bd31;
+  text-decoration: none;
+}
